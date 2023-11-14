@@ -182,9 +182,7 @@ def fwht2d_GPU(xx):
 
     return xx_out
 
-
-
-def getHSPIReconstruction_GPU( dataMat, nStep ):
+def getHSPIReconstruction_GPU_P( dataMat, nStep ):
     if (nStep == 2):
         spec = dataMat[:,:,0] - dataMat[:,:,1]
         img  = fwht2d_GPU(spec)
