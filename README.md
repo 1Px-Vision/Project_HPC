@@ -17,6 +17,8 @@ The recent advancements in edge computing power are primarily attributable to te
 * File HSI_GPU_B-> FHSI GPU Kernel PyCUDA  
 * File HSI_GPU_P-> FHSI GPU Kernel PyCUDA with Pre-processed    
 
+## Evaluation Algorithms 
+
 Table 1. Evaluating the simulation with Corel 1K dataset applying reconstruction of NIR-SPI Images using various reconstruction strategies, including TVAL3 (CPU 30 % samples), AP (CPU 60 % samples), OMP (CPU 30 % samples ) and FHSI
 
 | Methods  | PSNR (dB) |SSIM |
@@ -26,3 +28,5 @@ Table 1. Evaluating the simulation with Corel 1K dataset applying reconstruction
 | OMP  | 15.28  |0.56  |
 |AP  | 14.87  |0.42  |
 | TVLA3  | 22.40  |0.68 |
+
+
