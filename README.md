@@ -21,7 +21,7 @@ The recent advancements in edge computing power are primarily attributable to te
 
 Table 1. Evaluating the simulation with Corel 1K dataset applying reconstruction of NIR-SPI Images using various reconstruction strategies, including TVAL3 (CPU 30 % samples), AP (CPU 60 % samples), OMP (CPU 30 % samples ) and FHSI
 
-| Methods  | PSNR (dB) |SSIM |
+| Method  | PSNR (dB) |SSIM |
 | ------------- | ------------- |------------- |
 | FHSI (CPU)  | 21.7  |0.7  |
 | FHSI (GPU)_pre  | 24.38  |0.71  |
@@ -31,7 +31,7 @@ Table 1. Evaluating the simulation with Corel 1K dataset applying reconstruction
 
 Table 2. Evaluating laboratory reconstruction of NIR-SPI Images at a distance of 60 cm using various reconstruction strategies including TVAL3, AP, OMP, FHSI (CPU), and FHSI (GPU)_pre.
 
-| Methods  | Memory usage % |Execution time (ms) |SpeedUp % |
+| Method  | Memory usage % |Execution time (ms) |SpeedUp % |
 | ------------- | ------------- |------------- |------------- |
 | FHSI (CPU)  | 1.8 |340 |--- |
 | FHSI (GPU)  | 1.9  |45  |x7.5|
@@ -40,7 +40,7 @@ Table 2. Evaluating laboratory reconstruction of NIR-SPI Images at a distance of
 
 Table 3. Evaluating various SPI reconstruction algorithms OMP (30% samples), TVAL3 (30% samples), AP (60% samples), and FHSI): a comparative analysis of memory consumption, execution time (ms), and speedup performance between OMP on CPU and other algorithms for 64x64 images. 
 
-| Methods  | Memory usage % |Execution time (ms) |SpeedUp % |
+| Method  | Memory usage % |Execution time (ms) |SpeedUp % |
 | ------------- | ------------- |------------- |------------- |
 | OMP  | 10 |250-400 |--- |
 | TVAL3  | 15  |>1000  |---|
