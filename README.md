@@ -17,3 +17,8 @@ The recent advancements in edge computing power are primarily attributable to te
 
 ![HPC](https://github.com/1Px-Vision/Project_HPC/assets/150855410/13bd4b32-6cbf-4291-bde1-ae11de2b72e6)
 
+
+| First Header  | Second Header |
+| ------------- | ------------- |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
