@@ -1,0 +1,22 @@
+#!/bin/bash
+
+pip install pycuda
+
+#install_pycuda.sh
+# Navigate to your repository directory
+#cd your-repo
+
+# Create the install_pycuda.sh file
+#echo -e "#!/bin/bash\n\npip install pycuda" > install_pycuda.sh
+
+# or create the requirements.txt file
+#echo "pycuda" > requirements.txt
+
+# Add the file to git
+#git add install_pycuda.sh  # or git add requirements.txt
+
+# Commit the changes
+#git commit -m "Add script to install pycuda"
+
+# Push the changes to GitHub
+#git push origin main
