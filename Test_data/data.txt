@@ -1,1 +1,12 @@
-test
+parameter_dt_1->parameter transformer HSI data 1
+parameter_dt_2->parameter transformer HSI data 2
+parameter_dt_3->parameter transformer HSI data 3
+parameter_dt_4->parameter transformer HSI data 4
+parameter_dt_5->parameter transformer HSI data 5
+
+dat_dt_1-> Image HSI ->1
+dat_dt_2-> Image HSI ->2
+dat_dt_3-> Image HSI ->3
+dat_dt_4-> Image HSI ->4
+dat_dt_5-> Image HSI ->5
+
