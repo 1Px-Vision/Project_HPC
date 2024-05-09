@@ -29,4 +29,13 @@ Table 1. Evaluating the simulation with Corel 1K dataset applying reconstruction
 |AP  | 14.87  |0.42  |
 | TVLA3  | 22.40  |0.68 |
 
+Table 2. Evaluating laboratory reconstruction of NIR-SPI Images at a distance of 60 cm using various reconstruction strategies including TVAL3, AP, OMP, FHSI (CPU), and FHSI (GPU)_pre.
+
+| Methods  | Memory usage % |Execution time (ms) |SpeedUp % |
+| ------------- | ------------- |------------- |------------- |
+| FHSI (CPU)  | 1.8 |340 |--- |
+| FHSI (GPU)  | 1.9  |45  |x7.5|
+| FHSI (CPU)_pre  | 1.8 |43 |x7.9 |
+| FHSI (GPU)_pre  | 1.5 |20-34  |x10|
+
 
