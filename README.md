@@ -38,4 +38,12 @@ Table 2. Evaluating laboratory reconstruction of NIR-SPI Images at a distance of
 | FHSI (CPU)_pre  | 1.8 |43 |x7.9 |
 | FHSI (GPU)_pre  | 1.5 |20-34  |x10|
 
+Table 3. Evaluating various SPI reconstruction algorithms OMP (30% samples), TVAL3 (30% samples), AP (60% samples), and FHSI): a comparative analysis of memory consumption, execution time (ms), and speedup performance between OMP on CPU and other algorithms for 64x64 images. 
 
+| Methods  | Memory usage % |Execution time (ms) |SpeedUp % |
+| ------------- | ------------- |------------- |------------- |
+| OMP  | 10 |250-400 |--- |
+| TVAL3  | 15  |>1000  |---|
+|AP  | >20 |>5000 |--- |
+|OMP (GPU)  | <4  |50-70 |x3.5 |
+| FHSI (GPU)_pre  | 1.5 |20-34  |x10|
