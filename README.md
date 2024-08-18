@@ -47,3 +47,10 @@ Table 3. Evaluating various SPI reconstruction algorithms OMP (30% samples), TVA
 |AP  | >20 |>5000 |--- |
 |OMP (GPU)  | <4  |50-70 |x3.5 |
 | FHSI (GPU)_pre  | 1.5 |20-34  |x10|
+
+
+## Contributing
+Contributions are welcome! If you'd like to contribute, please fork the repository and create a pull request with your changes.
+
+## Contact
+For any questions or inquiries, please contact caoq@1px-vision.com
