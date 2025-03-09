@@ -48,6 +48,23 @@ Table 3. Evaluating various SPI reconstruction algorithms OMP (30% samples), TVA
 |OMP (GPU)  | <4  |50-70 |x3.5 |
 | FHSI (GPU)_pre  | 1.5 |20-34  |x10|
 
+# Cypthon module
+
+## Setup the Project Structure
+project/
+├── cython_cuda_fft.pyx  # Your Cython code file provided above
+├── digitrevorder_kernel.cu  # Your CUDA kernels (to compile separately)
+├── digitrevorder_kernel.cuh # Kernel header
+├── fhtseq_inv_gpu_kernel.cu # Your second CUDA kernel
+├── fhtseq_inv_gpu_kernel.cuh # Second kernel header
+├── setup.py             # Compiles Cython and CUDA files
+└── main.py              # Your Python script with __main__
+
+## Compile your Cython module
+''''
+python setup.py build_ext --inplace
+
+''''
 
 ## Contributing
 Contributions are welcome! If you'd like to contribute, please fork the repository and create a pull request with your changes.
