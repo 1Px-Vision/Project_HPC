@@ -5,8 +5,8 @@ import numpy
 
 ext_modules = [
     Extension(
-        name="cython_cuda_fft",
-        sources=["cython_cuda_fft.pyx"],
+        name="cython_CUDA_FHSPI",
+        sources=["cython_CUDA_FHSPI.pyx"],
         libraries=["cudart"],
         library_dirs=["/usr/local/cuda/lib64"],
         include_dirs=[numpy.get_include(), "/usr/local/cuda/include"],
