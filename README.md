@@ -52,7 +52,7 @@ Table 3. Evaluating various SPI reconstruction algorithms OMP (30% samples), TVA
 
 ## Setup the Project Structure
 project/
-├── cython_cuda_fft.pyx        # Cython code integrating CUDA for FFT and Hadamard transforms
+├── cython_cuda_fft.pyx        # Cython code integrating CUDA for FFT and Hadamard transforms //
 ├── digitrevorder_kernel.cu    # CUDA kernel for digit-reversed order computation
 ├── digitrevorder_kernel.cuh   # Header file for digitrevorder kernel
 ├── fhtseq_inv_gpu_kernel.cu   # CUDA kernel for inverse fast Hadamard transform
